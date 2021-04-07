@@ -1,8 +1,8 @@
 [core]
-    remote = surf
+    remote = sdrive
 ['remote "google"']
     url = gdrive://1SAdi_OyE4PrNJefIclu3v7Fc8FVtONTZ
 ['remote "webdav"']
     url = https://surfdrive.surf.nl/files/remote.php/nonshib-webdav
-['remote "surf"']
-    url = C:Usersjose.urrasurfdriveRSE_Workdvc_demo
+['remote "sdrive"']
+    url = C:/Users/jose.urra/surfdrive/RSE_Work/dvc_demo
