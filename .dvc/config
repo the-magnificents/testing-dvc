@@ -1,8 +1,10 @@
 [core]
-    remote = sdrive
+    remote = mydrive
 ['remote "google"']
     url = gdrive://1SAdi_OyE4PrNJefIclu3v7Fc8FVtONTZ
 ['remote "webdav"']
     url = https://surfdrive.surf.nl/files/remote.php/nonshib-webdav
-['remote "sdrive"']
-    url = C:/Users/jose.urra/surfdrive/RSE_Work/dvc_demo
+['remote "myremote"']
+    url = ../UsersaebrahimifardsurfdriveShareddvc_demo
+['remote "mydrive"']
+    url = C:/Users/aebrahimifard/surfdrive/Shared/dvc_demo
