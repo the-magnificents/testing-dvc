@@ -12,8 +12,7 @@ In order to test this we created a shared folder among three collaborators in su
 - How fast surf syncs the local remotes that each collaborator has in her/his pc
 
 ## We are right if
-- DVC files and folders are not corrupted do to surfdrive sync processes
-- It takes
+- DVC files and folders are not corrupted do to surfdrive sync processes.
 
 ## What we observed
 - The dvc local remote is being set with an absolute path because the shared surfdrive directory lives in a different location of our system which might differ per operating system . This means that the setup of the local remote will differ. We found two possible ways to handle it. 1) Each collaborator adds a remote name like this `dvc add remote surf_<name> `. 2) Use a bash script that wraps this command and uses a `.env` file where the specific path of the surfdrive folder is written.Then we add a remote to make dvc push or pull and then remove the remote. (The `.env` is private to each collaborator).    
@@ -21,6 +20,8 @@ In order to test this we created a shared folder among three collaborators in su
 ## What we learned
 - Dvc pull worked fine when first collaborator created the dvc repository
 - Dvc push from 2nd collaborator also worked
+- Surf locks the process when is syncing which is good news because then there is less probability of corrupting the shared folder.
+![error](./images/surf_sync_process.png)
 
 ## What we recommend
 - Use the bash script to push and pull to the remote remotes
