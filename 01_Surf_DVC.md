@@ -20,8 +20,11 @@ In order to test this we created a shared folder among three collaborators in su
 ## What we learned
 - Dvc pull worked fine when first collaborator created the dvc repository
 - Dvc push from 2nd collaborator also worked
-- Surf locks the process when is syncing which is good news because then there is less probability of corrupting the shared folder.
+- We have to close the surf desktop app otherwise it intervenes in the process. We did this two times, with the app opened, the app will start the syncing process and will block dvc from writing in the local remote. 
 ![error](./images/surf_sync_process.png)
+
+**This is still a concern:**
+- Will files remain uncorrupted in all local remote holded by different collaborators?
 
 ## What we recommend
 - Use the bash script to push and pull to the remote remotes
