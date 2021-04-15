@@ -5,13 +5,14 @@
 - It is progressive in the sense that is very easy to get started, has a very low level threshold
 
 ## Goals and wishlist
-- We would like to use available storage infrastructure at TU Delft to store dvc files (Surfdrive, Projectdrive, VM)
+- We would like to use available storage infrastructure at TU Delft to store dvc projects and related files (Surfdrive, Projectdrive, VM)
 - We would like to eventually host some training and develop some online educational material that researchers can use at TU delft to get started with such workflow
 
 ## For the Friday coding session- 16-04-2021 this is the proposed agenda
 - Give a quick getting started demo with DVC
 - Check the status of what we have tried and what we have learned
-- Discuss open issues/cards in the board
+- Discuss the test card/learning template
+- Discuss open issues/cards [in the board](https://github.com/the-magnificents/testing-dvc/projects/1)
 - Discuss lessons learned
 - Discuss next steps and tasks
 
